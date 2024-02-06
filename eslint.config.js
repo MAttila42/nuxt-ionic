@@ -5,7 +5,4 @@ export default antfu({
   typescript: {
     tsconfigPath: 'tsconfig.json',
   },
-  rules: {
-    'max-len': ['error', { code: 80 }],
-  },
 })

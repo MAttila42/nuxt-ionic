@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { StatusBar } from '@capacitor/status-bar'
 import { SafeArea } from '@aashu-dubey/capacitor-statusbar-safe-area'
+import { ScreenOrientation } from '@capacitor/screen-orientation'
 
 SafeArea.getSafeAreaInsets().then((insets) => {
   document.documentElement.style.setProperty(
@@ -10,6 +11,7 @@ SafeArea.getSafeAreaInsets().then((insets) => {
 })
 
 StatusBar.setOverlaysWebView({ overlay: true })
+ScreenOrientation.lock({ orientation: 'portrait' })
 </script>
 
 <template>

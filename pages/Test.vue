@@ -9,7 +9,7 @@ function changeBreakpoint(n: number) {
 }
 
 async function vibrate() {
-  await Haptics.impact({ style: ImpactStyle.Heavy })
+  await Haptics.impact({ style: ImpactStyle.Medium })
 }
 
 definePageMeta({

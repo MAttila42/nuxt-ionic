@@ -10,12 +10,10 @@ Make sure to have the dev server running in a separate terminal.
 nr dev --host
 ```
 
-In `scripts/android.sh` replace the `LIP` with the Nuxt server's network address.
-
-Run the app.
+Run the app with the Nuxt server's network address.
 
 ```bash
-nr android
+nr android <host>
 ```
 
 Once it is installed the terminal instance can be closed. Anytime the app is opened on the device it will connect to the Nuxt dev server.

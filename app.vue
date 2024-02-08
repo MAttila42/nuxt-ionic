@@ -1,17 +1,11 @@
 <script setup lang="ts">
 import { StatusBar } from '@capacitor/status-bar'
-import { SafeArea } from '@aashu-dubey/capacitor-statusbar-safe-area'
 import { ScreenOrientation } from '@capacitor/screen-orientation'
-
-SafeArea.getSafeAreaInsets().then((insets) => {
-  document.documentElement.style.setProperty(
-    '--ion-safe-area-top',
-    `${insets.top}px`,
-  )
-})
+import { SafeAreaController } from '@aashu-dubey/capacitor-statusbar-safe-area'
 
 StatusBar.setOverlaysWebView({ overlay: true })
 ScreenOrientation.lock({ orientation: 'portrait' })
+SafeAreaController.injectCSSVariables()
 </script>
 
 <template>
@@ -19,3 +13,9 @@ ScreenOrientation.lock({ orientation: 'portrait' })
     <IonRouterOutlet />
   </IonApp>
 </template>
+
+<style>
+html {
+  --ion-safe-area-top: var(--status-bar-height);
+}
+</style>

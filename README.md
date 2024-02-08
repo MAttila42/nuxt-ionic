@@ -2,6 +2,16 @@
 
 Testing/learning Ionic.
 
+## Setup
+
+Install node modules.
+
+```bash
+ni
+```
+
+That's it. No more setup needed. Everything gets created when needed.
+
 ## Live Reload
 
 Make sure to have the dev server running in a separate terminal.

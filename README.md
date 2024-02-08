@@ -4,13 +4,11 @@ Testing/learning Ionic.
 
 ## Setup
 
-Install node modules.
+Run the setup script.
 
 ```bash
-ni
+nr setup
 ```
-
-That's it. No more setup needed. Everything gets created when needed.
 
 ## Live Reload
 

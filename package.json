@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-ionic-app",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,22 +10,24 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "android": "bash ./scripts/android.sh"
+    "android": "bash ./scripts/android.sh",
+    "setup": "bash ./scripts/setup.sh"
   },
   "dependencies": {
     "@aashu-dubey/capacitor-statusbar-safe-area": "^2.1.1",
-    "@antfu/eslint-config": "^2.6.3",
-    "@capacitor/android": "5.6.0",
-    "@capacitor/app": "5.0.7",
-    "@capacitor/core": "5.6.0",
-    "@capacitor/haptics": "5.0.7",
-    "@capacitor/keyboard": "5.0.8",
+    "@capacitor/android": "^5.7.0",
+    "@capacitor/app": "^5.0.7",
+    "@capacitor/core": "^5.7.0",
+    "@capacitor/haptics": "^5.0.7",
+    "@capacitor/keyboard": "^5.0.8",
     "@capacitor/screen-orientation": "^5.0.7",
-    "@capacitor/status-bar": "5.0.7",
-    "@ionic/pwa-elements": "3.2.2"
+    "@capacitor/status-bar": "^5.0.7",
+    "@ionic/pwa-elements": "^3.2.2"
   },
   "devDependencies": {
-    "@capacitor/cli": "5.6.0",
+    "@antfu/eslint-config": "^2.6.4",
+    "@capacitor/assets": "^3.0.4",
+    "@capacitor/cli": "^5.7.0",
     "@nuxtjs/ionic": "^0.13.0",
     "@unocss/eslint-plugin": "^0.58.4",
     "@unocss/nuxt": "^0.58.4",

@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'nuxt-app',
+  appId: 'com.nuxtionic.app',
+  appName: 'Nuxt Ionic App',
   webDir: 'dist',
   server: {
     androidScheme: 'https',

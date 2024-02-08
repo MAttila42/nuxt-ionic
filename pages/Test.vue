@@ -22,61 +22,61 @@ useBackButton(() => {
 </script>
 
 <template>
-  <IonPage>
-    <IonHeader>
-      <IonToolbar>
-        <IonTitle>Test App</IonTitle>
-      </IonToolbar>
-    </IonHeader>
-    <IonContent class="ion-padding">
+  <ion-page>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Test App</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
       <div flex flex-col gap-3>
-        <IonButton id="open-modal" block>
+        <ion-button id="open-modal" block>
           Modal
-        </IonButton>
-        <IonButton block fill="outline" color="#D41212" @click="vibrate()">
+        </ion-button>
+        <ion-button block fill="outline" color="#D41212" @click="vibrate()">
           Vibrate
-        </IonButton>
+        </ion-button>
       </div>
 
-      <IonModal
+      <ion-modal
         ref="modal"
         trigger="open-modal"
         :initial-breakpoint="0.25"
         :breakpoints="[0, 0.25, 0.5, 0.75]"
       >
-        <IonContent class="ion-padding">
-          <IonSearchbar
+        <ion-content class="ion-padding">
+          <ion-search-bar
             placeholder="Search"
             @click="changeBreakpoint(0.75)"
           />
-          <IonList>
-            <IonItem>
-              <IonLabel>
+          <ion-list>
+            <ion-item>
+              <ion-label>
                 <h2>Connor Smith</h2>
                 <p>Sales Rep</p>
-              </IonLabel>
-            </IonItem>
-            <IonItem>
-              <IonLabel>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>
                 <h2>Daniel Smith</h2>
                 <p>Product Designer</p>
-              </IonLabel>
-            </IonItem>
-            <IonItem>
-              <IonLabel>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>
                 <h2>Greg Smith</h2>
                 <p>Director of Operations</p>
-              </IonLabel>
-            </IonItem>
-            <IonItem>
-              <IonLabel>
+              </ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>
                 <h2>Zoey Smith</h2>
                 <p>CEO</p>
-              </IonLabel>
-            </IonItem>
-          </IonList>
-        </IonContent>
-      </IonModal>
-    </IonContent>
-  </IonPage>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ion-modal>
+    </ion-content>
+  </ion-page>
 </template>

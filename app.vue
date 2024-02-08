@@ -9,9 +9,9 @@ SafeAreaController.injectCSSVariables()
 </script>
 
 <template>
-  <IonApp>
-    <IonRouterOutlet />
-  </IonApp>
+  <ion-app>
+    <ion-router-outlet />
+  </ion-app>
 </template>
 
 <style>

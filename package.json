@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
+    "@antfu/ni": "^0.21.12",
     "@capacitor/assets": "^3.0.4",
     "@capacitor/cli": "^5.7.0",
     "@nuxtjs/ionic": "^0.13.0",

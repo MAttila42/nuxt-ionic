@@ -37,6 +37,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^2.6.4
     version: 2.6.4(@unocss/eslint-plugin@0.58.4)(@vue/compiler-sfc@3.4.15)(eslint@8.56.0)(typescript@5.3.3)
+  '@antfu/ni':
+    specifier: ^0.21.12
+    version: 0.21.12
   '@capacitor/assets':
     specifier: ^3.0.4
     version: 3.0.4(@types/node@20.11.13)(typescript@5.3.3)
@@ -190,6 +193,11 @@ packages:
     resolution: {integrity: sha512-A3zWY9VeTPnxlMiZtsGHw2lSd3ghwvL8s9RiGOtqvDxhhFfZ781ynsGBa/iUnDJ5zBrmTFQrJDud3TGgRISaxw==}
     dependencies:
       execa: 8.0.1
+    dev: true
+
+  /@antfu/ni@0.21.12:
+    resolution: {integrity: sha512-2aDL3WUv8hMJb2L3r/PIQWsTLyq7RQr3v9xD16fiz6O8ys1xEyLhhTOv8gxtZvJiTzjTF5pHoArvRdesGL1DMQ==}
+    hasBin: true
     dev: true
 
   /@antfu/utils@0.7.7:
@@ -1612,7 +1620,7 @@ packages:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@npmcli/git@5.0.4:
@@ -1655,7 +1663,7 @@ packages:
       json-parse-even-better-errors: 3.0.1
       normalize-package-data: 6.0.0
       proc-log: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - bluebird
     dev: true
@@ -5378,7 +5386,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.15
-      semver: 7.5.4
+      semver: 7.6.0
       vue-eslint-parser: 9.4.2(eslint@8.56.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -7728,7 +7736,7 @@ packages:
       make-fetch-happen: 13.0.0
       nopt: 7.2.0
       proc-log: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
       tar: 6.2.0
       which: 4.0.0
     transitivePeerDependencies:
@@ -7811,7 +7819,7 @@ packages:
     dependencies:
       hosted-git-info: 7.0.1
       is-core-module: 2.13.1
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -7836,7 +7844,7 @@ packages:
     resolution: {integrity: sha512-W29RiK/xtpCGqn6f3ixfRYGk+zRyr+Ew9F2E20BfXxT5/euLdA/Nm7fO7OeTGuAmTs30cpgInyJ0cYe708YTZw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /npm-normalize-package-bin@3.0.1:

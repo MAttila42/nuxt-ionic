@@ -33,5 +33,10 @@
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "material-icon-theme.activeIconPack": "vue",
-  "workbench.panel.defaultLocation": "right"
+  "workbench.panel.defaultLocation": "right",
+  "iconify.delimiters": [
+    ":",
+    "--",
+    "/"
+  ]
 }
